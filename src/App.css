@@ -1,0 +1,100 @@
+#root {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  padding-top: 200px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-card{
+  margin: 0 auto;
+  padding: 24px;
+  max-width: 340px;
+  background-color: #fff;
+  color: #525252;
+  border-radius: 8px;
+  box-shadow: 0 24px 78px -27px rgba(43, 43, 43, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.card-header {
+  margin-bottom: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  display: block;
+  width: 64px;
+  margin: 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-name {
+  color: #171717;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.profile-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: grey;
+  height: 28px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile-bio {
+  font-weight: 500;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  color: grey;
+}
+
+.contact-button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #4338ca;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 36px;
+  height: auto;
+}
